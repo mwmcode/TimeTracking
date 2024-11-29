@@ -10,7 +10,6 @@ public class TimeTrackingDbContext: DbContext
 
     public TimeTrackingDbContext(DbContextOptions options) : base(options)
     {
-        
     }
     
     public DbSet<Employee> Employees { get; set; }
